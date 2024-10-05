@@ -30,19 +30,19 @@ git clone https://github.com/ahhmadas213/file-manager.git
 
 2. Navigate to the project directory:
 ```bash
-cd file-organizer
+cd file-manager
 ```
 
 ## Usage
 
 1. Run the script:
 ```bash
-python file_organizer.py
+python main.py
 ```
 
 2. When prompted, enter the path to the directory you want to organize:
 ```
-File Organizer
+file-manager
 Enter the directory path to organize: /path/to/your/directory
 ```
 
