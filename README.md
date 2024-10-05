@@ -1,4 +1,4 @@
-﻿# Python File Organizer
+﻿# Python File  Manager
 
 A simple  Python script to automatically organize files in a directory based on their file types. 
 This tool helps you maintain a clean and structured file system by categorizing files into appropriate folders.
@@ -53,7 +53,7 @@ Enter the directory path to organize: /path/to/your/directory
 
 ## Code Structure
 
-- `FileOrganizer` class:
+- `FileManager` class:
   - `__init__(source_dir)`: Initializes the organizer with source directory and categories
   - `create_category_folders()`: Creates necessary category folders
   - `get_category(file_extension)`: Determines the category for a given file extension
@@ -62,8 +62,8 @@ Enter the directory path to organize: /path/to/your/directory
 ## Example
 
 ```python
-organizer = FileOrganizer("/path/to/messy/directory")
-organizer.organize_files()
+ manager = FileOrganizer("/path/to/messy/directory")
+ manager.organize_files()
 ```
 
 
